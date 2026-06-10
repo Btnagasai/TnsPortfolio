@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function Navbar() {
+function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const navItems = [
@@ -116,3 +116,4 @@ export default function Navbar() {
     </nav>
   );
 }
+export default Navbar

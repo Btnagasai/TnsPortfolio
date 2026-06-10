@@ -1,7 +1,7 @@
 import profileImage from "../assets/home_frontendimg.png";
 import resumePdf from "../assets/TulasiNS_Resume.pdf";
 
-export default function Home() {
+function Home() {
   return (
     <section
       id="home"
@@ -89,3 +89,4 @@ export default function Home() {
     </section>
   );
 }
+export default Home;
