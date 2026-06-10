@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =========================
+   THEME VARIABLES
+========================= */
+
+:root {
+  --bg: #ffffff;
+  --text: #1f2937;
+  --text-h: #0b1220;
+
+  --border: #e5e7eb;
+  --card: #ffffff;
+
+  --accent: #38bdf8;
+  --shadow: rgba(0, 0, 0, 0.08) 0 10px 25px;
+
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* DARK MODE */
+.dark {
+  --bg: #0b1220;
+  --text: #9ca3af;
+  --text-h: #f3f4f6;
+
+  --border: #1f2937;
+  --card: #111827;
+
+  --accent: #38bdf8;
+  --shadow: rgba(0, 0, 0, 0.5) 0 10px 30px;
+}
+
+/* =========================
+   GLOBAL RESET
+========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--sans);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* =========================
+   TEXT
+========================= */
+
+h1, h2, h3 {
+  color: var(--text-h);
+}
+
+/* =========================
+   CARD
+========================= */
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: var(--shadow);
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  background: rgba(255,255,255,0.7);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+}
+
+.dark nav {
+  background: rgba(11,18,32,0.85);
+}
+
+/* =========================
+   SECTION FIX (IMPORTANT)
+========================= */
+
+section {
+  padding: 80px 20px;
+  background: var(--bg);
+  color: var(--text);
+}
