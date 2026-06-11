@@ -52,7 +52,7 @@ function Contact() {
               <a href="tel:+91XXXXXXXXXX"
                 className="flex items-center gap-3 md:gap-4 hover:text-cyan-500 transition">
                 <FaPhone className="text-cyan-500" />
-                +91 6303640929
+                +91 xxxxxxxxxx
               </a>
 
               <a href="https://www.linkedin.com/in/tulasi-naga-sai-b-90675a271/"
