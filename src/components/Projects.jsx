@@ -6,7 +6,7 @@ import coachingWebsite from "../assets/projects/Coaching_Website.png";
 import restaurantWebsite from "../assets/projects/Restaurant_website.png";
 import portfolioWebsite from "../assets/projects/Portfolio_website.png";
 import exportsWebsite from "../assets/projects/Exports_website.png";
-import consultingWebsite from "../assets/projects/Consulting_website.png";
+import consultingWebsite from "../assets/projects/consulting_website.png";
 
 function Projects() {
   const [activeTab, setActiveTab] = useState("All");
