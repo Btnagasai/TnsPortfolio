@@ -1,5 +1,5 @@
 import profileImage from "../assets/home_frontendimg.png";
-import resumePdf from "../assets/TulasiNS_Resume.pdf";
+import resumePdf from "../assets/Tulasi_Naga_Sai_Professional_Resume.pdf";
 
 function Home() {
   return (
@@ -34,7 +34,25 @@ function Home() {
             using React.js, JavaScript, HTML, CSS, Bootstrap and WordPress.
           </p>
 
-          <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4 mt-8">
+          {/* BADGES */}
+          <div className="flex flex-wrap gap-4 mt-6 justify-center md:justify-start">
+
+            <div className="px-4 py-2 rounded-xl bg-cyan-500/10 border border-cyan-500/20">
+              <span className="font-bold text-cyan-500">2+</span> Years Experience
+            </div>
+
+            <div className="px-4 py-2 rounded-xl bg-purple-500/10 border border-purple-500/20">
+              <span className="font-bold text-purple-500">7+</span> Projects
+            </div>
+
+            <div className="px-4 py-2 rounded-xl bg-green-500/10 border border-green-500/20">
+              <span className="font-bold text-green-500">Open</span> To Work
+            </div>
+
+          </div>
+
+          {/* BUTTONS */}
+          <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-8">
 
             <a
               href="#projects"
@@ -58,6 +76,28 @@ function Home() {
               Download Resume
             </a>
 
+            <a
+              href="https://github.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="px-6 py-3 rounded-full
+              bg-gray-800 text-white
+              hover:bg-gray-900 transition duration-300"
+            >
+              GitHub
+            </a>
+
+            <a
+              href="https://linkedin.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="px-6 py-3 rounded-full
+              bg-blue-600 text-white
+              hover:bg-blue-700 transition duration-300"
+            >
+              LinkedIn
+            </a>
+
           </div>
 
         </div>
@@ -77,7 +117,7 @@ function Home() {
           >
             <img
               src={profileImage}
-              alt="Frontend Developer"
+              alt="Tulasi Naga Sai - Frontend Developer"
               className="w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96
               object-cover rounded-2xl"
             />
@@ -89,4 +129,5 @@ function Home() {
     </section>
   );
 }
+
 export default Home;

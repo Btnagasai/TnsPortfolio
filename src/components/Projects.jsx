@@ -50,7 +50,7 @@ function Projects() {
       builder: "Elementor",
       image: restaurantWebsite,
       category: "WordPress",
-      link: "#",
+      link: "https://irving.bharatbhavan.com/",
     },
     {
       title: "Portfolio Website",
@@ -60,7 +60,7 @@ function Projects() {
       builder: "Tailwind CSS",
       image: portfolioWebsite,
       category: "React",
-      link: "#",
+      link: "https://tns-portfolio-navy.vercel.app/",
     },
     {
       title: "Exports Website",
@@ -80,7 +80,7 @@ function Projects() {
       builder: "Elementor",
       image: consultingWebsite,
       category: "WordPress",
-      link: "#",
+      link: "https://beltlineconsulting.org/",
     },
   ];
 
